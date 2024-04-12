@@ -25,7 +25,6 @@ footer {
     color: white; /* Change text color to white */
     text-align: center;
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent black background */
 }
   #overlay-toggle {
     position:absolute;
