@@ -17,6 +17,16 @@
   body {
     background: rgb(17, 17, 17);
   }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
   #overlay-toggle {
     position:absolute;
     display: none;
