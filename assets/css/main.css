@@ -22,10 +22,22 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white; /* Change text color to white */
     text-align: center;
     padding: 10px 0;
 }
+
+footer a {
+    text-decoration: none; /* Removes underline from links */
+    font-family: mono;
+    font-size: 1.3em; /* Matches your other links */
+    text-shadow: 0 0 0.40em #bababa; /* Adds text shadow for better visibility */
+    color: #cccccc; /* Light grey color to match other links */
+}
+
+footer a:hover {
+    color: #ffffff; /* Brighter color on hover */
+}
+
   #overlay-toggle {
     position:absolute;
     display: none;
